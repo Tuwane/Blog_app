@@ -12,8 +12,13 @@
 </head>
 <body>
     <header>
-        
+        <div class="nav-left">
         <h1><a href="{% url 'home' %}"> BLOG</a></h1>
+        </div>
+        <div class="nav-right">
+      <button><a href='{% url 'post_new' %}'>NewBlog</a></button>
+        </div>
+
     </header>
 <div>
     {% block content %}
