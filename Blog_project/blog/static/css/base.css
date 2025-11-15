@@ -40,3 +40,18 @@ header h1 a {
  .post-entry h2 a:hover {
  color: red;
  }
+ 
+ .btn {
+    margin-right: 10px;
+    padding:8px 12px;
+    background:#4ece52;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    color:white;
+    background-color: #4A90E2;
+    transition: 0.2s;
+    
+
+ }
